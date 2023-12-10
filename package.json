@@ -26,6 +26,8 @@
 	},
 	"homepage": "https://github.com/carreiraDesenvolvedor/form-builder#readme",
 	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
 		"@tsconfig/recommended": "^1.0.3",
 		"semantic-release": "^22.0.10"
 	},
