@@ -1,17 +1,18 @@
 {
 	"name": "@easyservice/form-builder",
-	"version": "1.0.0",
+	"version": "0.0.0-development",
 	"description": "Dynamic Form Builder using TypeScript and ReactJS",
 	"main": "src/index.ts",
 	"files": [
 		"src/**/*"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"semantic-release": "semantic-release"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:carreiraDesenvolvedor/form-builder.git"
+		"url": "https://github.com/carreiraDesenvolvedor/form-builder"
 	},
 	"keywords": [
 		"reactjs",
@@ -25,6 +26,13 @@
 	},
 	"homepage": "https://github.com/carreiraDesenvolvedor/form-builder#readme",
 	"devDependencies": {
-		"@tsconfig/recommended": "^1.0.3"
+		"@tsconfig/recommended": "^1.0.3",
+		"semantic-release": "^22.0.10"
+	},
+	"release": {
+		"branches": [
+			"main",
+			"next"
+		]
 	}
 }

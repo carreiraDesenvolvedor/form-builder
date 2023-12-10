@@ -12,3 +12,11 @@ Inside your package folder run
 
 Inside the project you wanna test it run
 `npm link reactjs-typescript-form-builder`
+
+## Publish package
+
+`npx semantic-release-cli setup`
+
+`npm login`
+
+`npm token create`
