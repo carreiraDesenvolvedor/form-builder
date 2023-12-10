@@ -1,6 +1,6 @@
 {
 	"name": "@easyservice/form-builder",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Dynamic Form Builder using TypeScript and ReactJS",
 	"main": "src/index.ts",
 	"files": [
