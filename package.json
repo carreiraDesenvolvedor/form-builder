@@ -1,24 +1,30 @@
 {
-  "name": "reactjs-typescript-form-builder",
-  "version": "1.0.0",
-  "description": "Dynamic Form Builder using TypeScript and ReactJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carreiraDesenvolvedor/reactjs-typescript-form-builder.git"
-  },
-  "keywords": [
-    "reactjs",
-    "typescript",
-    "form"
-  ],
-  "author": "Jonathan Melo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/carreiraDesenvolvedor/reactjs-typescript-form-builder/issues"
-  },
-  "homepage": "https://github.com/carreiraDesenvolvedor/reactjs-typescript-form-builder#readme"
+	"name": "@easyservice/form-builder",
+	"version": "1.0.0",
+	"description": "Dynamic Form Builder using TypeScript and ReactJS",
+	"main": "src/index.ts",
+	"files": [
+		"src/**/*"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:carreiraDesenvolvedor/form-builder.git"
+	},
+	"keywords": [
+		"reactjs",
+		"typescript",
+		"form"
+	],
+	"author": "Jonathan Melo",
+	"license": "LGPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/carreiraDesenvolvedor/form-builder/issues"
+	},
+	"homepage": "https://github.com/carreiraDesenvolvedor/form-builder#readme",
+	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.3"
+	}
 }
