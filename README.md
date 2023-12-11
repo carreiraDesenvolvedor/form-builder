@@ -11,7 +11,7 @@ Inside your package folder run
 `npm link`
 
 Inside the project you wanna test it run
-`npm link reactjs-typescript-form-builder`
+`npm link @easyservice/form-builder`
 
 ## Publish package
 
