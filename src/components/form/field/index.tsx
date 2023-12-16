@@ -12,7 +12,6 @@ export interface IFormFieldProps {
 	name: string;
 	label?: string;
 	placeholder?: string;
-	required: boolean;
 }
 
 export type IFormFieldHandleOnChange = (

@@ -1,5 +1,5 @@
 import React, { FC, useEffect, useState } from "react";
-import FormField from "./field";
+import FormField, { FormFieldPropsTypeEnum } from "./field";
 import { IFormFieldText } from "./field/type/text";
 
 type IFormValidFields = IFormFieldText;
@@ -33,10 +33,10 @@ const Form: FC<IForm> = ({
 	}, [fieldValidation]);
 
 	const handleFieldValidation = (key: string, isValid: boolean) => {
-		setFieldValidation({
-			...fieldValidation,
+		setFieldValidation((currentValue) => ({
+			...currentValue,
 			[key]: isValid,
-		});
+		}));
 	};
 
 	return (
